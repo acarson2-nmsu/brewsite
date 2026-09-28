@@ -8,4 +8,3 @@ def test_client():
     assert responce.status_code == 200 #Everything loaded correctly
     assert b'Confucius' in responce.data
     assert b'James Smith' in responce.data
-        
